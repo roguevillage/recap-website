@@ -44,11 +44,23 @@ table {
 
 .bg-custom {
 	color: white !important;
-	/* background-color: rgb(70, 100, 29) !important; */
+	/* background-color: rgb(70, 100, 29);
+	background-color: rgb(100,100,100) */
 	/* background-color: rgb(150, 192, 84) !important; */ 
-	background-color:rgb(34, 139, 34);
+	/* background-color:rgb(34, 139, 34); */
 	/* background-color: rgb(76, 187, 23); */
+ /* fallback for old browsers */
+ background: #6a11cb;
+
+
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: -webkit-linear-gradient(to right, rgb(34, 139, 34), rgb(125, 158, 66));
+
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* background: linear-gradient(to left, rgb(225, 25, 49), rgb(125, 158, 66)); */
 	
+ background: linear-gradient(to right, rgb(34, 139, 34), rgb(125, 158, 66));
+
 }
 
 .center {
