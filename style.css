@@ -13,8 +13,42 @@
     table-layout: fixed;
 }
 
-#poster {
+h1 {
+	/* color: rgb(70, 100, 29) !important; 
+	color:rgb(34, 139, 34); */
+	color: black;
+}
+h3 {
+	/* color:rgb(34, 139, 34); */
+	color: black;
+} 
 
+table {
+	color: rgb(83, 83, 83);
+
+}
+
+.content {
+	color: rgb(83, 83, 83);
+}
+
+.content a:hover {
+	color:  rgb(125, 158, 66);
+
+}
+
+.content a {
+	color:rgb(34, 139, 34);
+	/* color: rgb(72, 184, 72); */
+}
+
+.bg-custom {
+	color: white !important;
+	/* background-color: rgb(70, 100, 29) !important; */
+	/* background-color: rgb(150, 192, 84) !important; */ 
+	background-color:rgb(34, 139, 34);
+	/* background-color: rgb(76, 187, 23); */
+	
 }
 
 .center {
